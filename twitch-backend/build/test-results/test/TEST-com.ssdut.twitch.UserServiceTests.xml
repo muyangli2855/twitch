@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ssdut.twitch.UserServiceTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-06-06T12:23:06" hostname="ROG-STRIX-G512L" time="0.612">
+  <properties/>
+  <testcase name="whenItemNotExist_setFavoriteItem_shouldSaveItem()" classname="com.ssdut.twitch.UserServiceTests" time="0.59"/>
+  <testcase name="whenItemNotExist_unsetFavoriteItem_shouldNotDeleteFavoriteRecord()" classname="com.ssdut.twitch.UserServiceTests" time="0.004"/>
+  <testcase name="whenItemExist_setFavoriteItem_shouldNotSaveItem()" classname="com.ssdut.twitch.UserServiceTests" time="0.003"/>
+  <testcase name="whenItemExist_unsetFavoriteItem_shouldDeleteFavoriteRecord()" classname="com.ssdut.twitch.UserServiceTests" time="0.002"/>
+  <testcase name="setFavoriteItem_shouldCreateFavoriteRecord()" classname="com.ssdut.twitch.UserServiceTests" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
